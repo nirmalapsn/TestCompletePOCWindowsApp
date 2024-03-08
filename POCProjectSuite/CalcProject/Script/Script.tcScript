@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="TestCases">
+			<child name="CalculatorTests" key="{302067D4-3E6D-40E9-9F96-08F9D2396C92}" path="CalculatorTests.js" />
+		</folder>
+		<folder name="Framework">
+			<folder name="1.UI">
+				<child name="CalculatorUI" key="{6215E95F-A298-4E4D-A2DB-FE50301359A6}" path="CalculatorUI.js" />
+			</folder>
+			<folder name="2. Actions">
+				<child name="CalculatorActions" key="{FE92AF29-6CD4-43BA-981C-76224B73988F}" path="CalculatorActions.js" />
+			</folder>
+			<folder name="0. Common">
+				<child name="FileUtils" key="{1C0B3D95-A88E-48FD-B131-25F6851A86AA}" path="FileUtils.js" />
+				<child name="JsonUtils" key="{787696CC-6219-4E2F-A8C0-95B73CA50C90}" path="JsonUtils.js" />
+				<child name="LogUtils" key="{3B941719-84FA-4FE7-B864-2C443A41EDC0}" path="LogUtils.js" />
+				<child name="ProcessUtils" key="{637BA71B-B8D8-4A9E-8482-CAA801490E13}" path="ProcessUtils.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

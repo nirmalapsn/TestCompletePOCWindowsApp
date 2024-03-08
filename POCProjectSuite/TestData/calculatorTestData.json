@@ -1,0 +1,6 @@
+{
+	"Add": [2, 3],
+	"Subtract" : [5, 3],
+	"Multiply" : [5, 3],
+	"Division": [3, 3]
+}
