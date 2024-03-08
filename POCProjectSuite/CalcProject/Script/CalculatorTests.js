@@ -17,5 +17,20 @@ function testAddNumbers(){
   
 
 function testSubtractNumbers(){
+  jsonFilePath = ProjectSuite.Path + "TestData\\CalculatorTestData.Json";
+  var jsonObjParent = readJsonFile(jsonFilePath);
+  var testData = jsonObjParent.Add;
+  var sum = subtractNumbers(testData);
+  if(sum!=null && sum!=undefined)
+    Log.Checkpoint("Sum: " + sum);
+  else
+    Log.Error("Sum Calculation failed");
+}
+
+function testMultiplyNumbers(){
+  
+}
+
+function testDivisionOnNumbers(){
   
 }

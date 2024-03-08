@@ -21,6 +21,31 @@
 							</testItem>
 						</children>
 					</testItem>
+					<testItem name="Regression Tests" key="{F61C7F94-032B-43DD-A2B6-01C79B77184E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Add Numbers" key="{44DB52E3-B195-42FD-BB21-B9FDF576E502}" group="False" parallel="False" enabled="True" testMoniker="{302067D4-3E6D-40E9-9F96-08F9D2396C92}testAddNumbers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Subtract Numbers" key="{1886A5F3-7D84-4725-BB36-6119F383E28D}" group="False" parallel="False" enabled="True" testMoniker="{302067D4-3E6D-40E9-9F96-08F9D2396C92}testSubtractNumbers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="Multiply Numbers" key="{E0EE4D03-0490-4858-8CF2-D0E55FCF7B36}" group="False" parallel="False" enabled="True" testMoniker="{302067D4-3E6D-40E9-9F96-08F9D2396C92}testMultiplyNumbers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="ProjectTestItem4" key="{4B1E89D4-98DD-4131-BC94-DCFC6D5CE34B}" group="False" parallel="False" enabled="True" testMoniker="{302067D4-3E6D-40E9-9F96-08F9D2396C92}testDivisionOnNumbers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
 				</children>
 			</testItem>
 		</children>
