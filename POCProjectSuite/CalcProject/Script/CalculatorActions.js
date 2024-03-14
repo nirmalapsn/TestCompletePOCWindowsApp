@@ -15,7 +15,7 @@ function addNumbers(testData){
     }
   }
   
-  Log.Message("Sum: " + sum);
+//  Log.Message("Sum: " + sum);
   return sum;
 }
 
